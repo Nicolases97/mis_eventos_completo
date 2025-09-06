@@ -1,0 +1,13 @@
+body { font-family: Arial, sans-serif; margin:0; padding:0; }
+.nav { display:flex; justify-content:space-between; padding:12px 24px; background:#282c34; color:white; align-items:center }
+.nav a { color:white; margin-right:12px; text-decoration:none }
+.container { padding:24px }
+.grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:12px }
+.card { border:1px solid #ddd; padding:12px; border-radius:6px }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100 text-gray-800;
+}
